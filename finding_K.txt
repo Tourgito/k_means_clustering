@@ -1,0 +1,44 @@
+19/05/27 21:12:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/27 21:41:15 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/27 21:41:15 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([46.53757221, 46.53688443, 49.97476361, 34.77514984, 34.77474105]), array([ 2.44992457,  2.44948294,  2.44920185, 11.55007976, 11.54985212])]
+Total Cost: 1.23843761922e+11
+
+
+
+19/05/27 22:32:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/27 22:54:34 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/27 22:54:34 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([62.44993052, 62.44897501, 62.44972225, 47.5002485 , 47.49936811]), array([30.62521391, 30.62479385, 37.49980496, 22.05005118, 22.05011399]), array([ 2.44992457,  2.44948294,  2.44920185, 11.55007976, 11.54985212])]
+Total Cost: 41030964457.4
+
+19/05/27 23:08:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/27 23:30:35 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/27 23:30:35 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([18.79979739, 18.80005265, 32.54989641, 32.54960667, 32.55018525]), array([62.44993052, 62.44897501, 62.44972225, 47.5002485 , 47.49936811]), array([ 2.44992457,  2.44948294,  2.44920185, 11.55007976, 11.54985212]), array([42.45063043, 42.44953504, 42.44971352, 11.55049569, 11.55004273])]
+Total Cost: 18995297507.1
+
+
+19/05/27 23:43:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/28 00:06:37 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/28 00:06:37 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([42.45063043, 42.44953504, 42.44971352, 11.55049569, 11.55004273]), array([ 2.44992457,  2.44948294,  2.44920185, 11.55007976, 11.54985212]), array([62.44981017, 62.449231  , 62.449867  , 62.44950944, 62.44860071]), array([62.45005088, 62.44871902, 62.4495775 , 32.55098757, 32.5501355 ]), array([18.79979739, 18.80005265, 32.54989641, 32.54960667, 32.55018525])]
+Total Cost: 222979264.093
+
+19/05/28 17:02:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/28 17:24:54 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/28 17:24:54 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([62.45005088, 62.44871902, 62.4495775 , 32.55098757, 32.5501355 ]), array([ 2.45553113,  2.44915572,  2.45067579, 11.55168774, 10.92428037]), array([42.45063043, 42.44953504, 42.44971352, 11.55049569, 11.55004273]), array([62.44981017, 62.449231  , 62.449867  , 62.44950944, 62.44860071]), array([18.79979739, 18.80005265, 32.54989641, 32.54960667, 32.55018525]), array([ 2.44432776,  2.44980959,  2.44773047, 11.54847457, 12.1743368 ])]
+Total Cost: 214774643.689
+
+
+19/05/28 18:12:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/28 18:34:54 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/28 18:34:54 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([63.07510795, 62.4504347 , 62.45045997, 32.55173021, 32.55059713]), array([62.44981017, 62.449231  , 62.449867  , 62.44950944, 62.44860071]), array([42.45006975, 43.07463878, 42.45092759, 11.54994568, 11.5490233 ]), array([ 2.44992457,  2.44948294,  2.44920185, 11.55007976, 11.54985212]), array([18.79979739, 18.80005265, 32.54989641, 32.54960667, 32.55018525]), array([42.45119081, 41.82475223, 42.44850007, 11.55104541, 11.55106164]), array([61.82601223, 62.44700614, 62.44869648, 32.55024614, 32.54967462])]
+Total Cost: 206586213.638
+
+
+
+
+

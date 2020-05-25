@@ -1,0 +1,22 @@
+
+Εντολες ωστε να τρεξουμε τα παραδειγματα:
+~/spark/bin/spark-submit --master spark://master:7077 ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark/a 2
+~/spark/bin/spark-submit --master spark://master:7077 ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark/a 3
+~/spark/bin/spark-submit --master spark://master:7077 ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark/a 4
+~/spark/bin/spark-submit --master spark://master:7077 ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark/a 5
+~/spark/bin/spark-submit --master spark://master:7077 ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark/a 6
+~/spark/bin/spark-submit --master spark://master:7077 ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark/a 7
+
+
+οταν το τρεξαμε σε ενα μηχανακι:
+~/spark/bin/spark-submit ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark/a 5
+
+
+Για να ενεργοποιησουμε και απενεργοποιησουμε το cluster.
+~/spark/sbin/start-all.sh
+~/spark/sbin/stop-all.sh
+
+
+Για να ενεργοποιησουμε και απενεργοποιησουμε το HDFS:
+~/hadoop/sbin/start-dfs.sh
+~/hadoop/sbin/stop-dfs.sh

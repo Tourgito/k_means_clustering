@@ -1,0 +1,80 @@
+ONE NODE:
+Final centers: [array([18.79979739, 18.80005265, 32.54989641, 32.54960667, 32.55018525]), array([42.45063043, 42.44953504, 42.44971352, 11.55049569, 11.55004273]), array([ 2.44411432,  2.44989022,  2.44767012, 11.54863672, 12.17434926]), array([ 2.45574467,  2.44907496,  2.45073617, 11.55152524, 10.92429636]), array([62.44993052, 62.44897501, 62.44972225, 47.5002485 , 47.49936811])]
+Total Cost: 18987092886.7
+
+array([52.45034065, 52.44912703, 52.44964551, 22.05074163, 22.05008911]), array
+Total Cost: 22075405502.7
+
+Final centers: [array([62.44993052, 62.44897501, 62.44972225, 47.5002485 , 47.49936811]), array([ 3.07548613,  2.45075404,  2.4465144 , 11.5491364 , 11.54504755]), array([42.45063043, 42.44953504, 42.44971352, 11.55049569, 11.55004273]), array([18.79979739, 18.80005265, 32.54989641, 32.54960667, 32.55018525]), array([ 1.82480015,  2.44821272,  2.45188742, 11.55102246, 11.55465334])]
+Total Cost: 18987084688.4
+
+
+TWO NODES:
+19/05/31 08:25:58 WARN NativeCodeLoader: Unable to load native-hadoop library fo                                                                                                                                                             r your platform... using builtin-java classes where applicable
+19/05/31 08:49:57 WARN BLAS: Failed to load implementation from: com.github.fomm                                                                                                                                                             il.netlib.NativeSystemBLAS
+19/05/31 08:49:57 WARN BLAS: Failed to load implementation from: com.github.fomm                                                                                                                                                             il.netlib.NativeRefBLAS
+Final centers: [array([30.62521106, 30.62479055, 37.49980405, 22.05005351, 22.05                                                                                                                                                             011621]), array([62.45004929, 62.44871951, 62.44957756, 32.55098788, 32.55013557                                                                                                                                                             ]), array([ 1.82481197,  2.4481517 ,  2.45214109, 11.55123347, 11.55440111]), ar                                                                                                                                                             ray([ 3.07549867,  2.45081388,  2.4462615 , 11.54892385, 11.54530056]), array([6                                                                                                                                                             2.44980949, 62.44923061, 62.44986736, 62.44950872, 62.44860046])]
+Total Cost: 22250861704.1
+
+
+19/05/31 10:03:37 WARN NativeCodeLoader: Unable to load native-hadoop library fo                                                                                                                                                             r your platform... using builtin-java classes where applicable
+19/05/31 10:27:37 WARN BLAS: Failed to load implementation from: com.github.fomm                                                                                                                                                             il.netlib.NativeSystemBLAS
+19/05/31 10:27:37 WARN BLAS: Failed to load implementation from: com.github.fomm                                                                                                                                                             il.netlib.NativeRefBLAS
+Final centers: [array([62.44992939, 62.44897506, 62.44972246, 47.50024937, 47.49                                                                                                                                                             936909]), array([ 2.44992442,  2.44948229,  2.44920238, 11.55007908, 11.54985252                                                                                                                                                             ]), array([18.80055977, 19.24997   , 32.54946075, 32.55034095, 32.54971323]), ar                                                                                                                                                             ray([18.79903772, 18.35121452, 32.55033079, 32.54887428, 32.55065582]), array([4                                                                                                                                                             2.45062936, 42.44953375, 42.44971393, 11.55049578, 11.55004282])]
+Total Cost: 18991422526.1
+
+
+user@snf-867379:~$ ~/spark/bin/spark-submit --master spark://master:7077 ./spark/examples/src/main/python/mllib/kmeans.py hdfs://master:9000/user/user/spark 5
+19/05/31 11:41:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/31 12:05:55 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/31 12:05:55 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([52.45034004, 52.44912734, 52.44964646, 22.05074258, 22.05008995]), array([10.62486736, 10.62477359, 17.4995608 , 22.04985091, 22.0500268 ]), array([62.45268879, 62.45009207, 62.45207214, 62.45298597, 63.20916117]), array([62.44501335, 62.44580725, 62.4431071 , 61.77741411, 61.99483985]), array([62.4511679 , 62.45163363, 62.45400794, 63.12019615, 61.99093817])]
+Total Cost: 46459682864.1
+
+
+
+THREE NODES:
+19/05/30 16:59:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/30 17:16:04 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/30 17:16:04 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([62.44981017, 62.449231  , 62.449867  , 62.44950944, 62.44860071]), array([62.45005088, 62.44871902, 62.4495775 , 32.55098757, 32.5501355]), array([43.07593797, 42.44928626, 42.45098035, 11.54895398, 11.55225468]), array([10.62486098, 10.62476779, 17.49954913, 22.04984321, 22.05001869]), array([41.82548354, 42.44978375, 42.44844702, 11.552037  , 11.54783134])]
+Total Cost: 24603176749.5
+
+
+19/05/30 18:02:18 WARN NativeCodeLoader: Unable to load native-hadoop library fo                                                                                                                                                             r your platform... using builtin-java classes where applicable
+19/05/30 18:18:40 WARN BLAS: Failed to load implementation from: com.github.fomm                                                                                                                                                             il.netlib.NativeSystemBLAS
+19/05/30 18:18:40 WARN BLAS: Failed to load implementation from: com.github.fomm                                                                                                                                                             il.netlib.NativeRefBLAS
+Final centers: [array([41.78038784, 42.44420052, 42.44929706, 11.55041701, 12.00975811]), array([62.44993052, 62.44897501, 62.44972225, 47.5002485 , 47.49936811]), array([43.12272649, 42.44904788, 42.44876067, 11.54840652, 12.00502987]), array([42.44665321, 42.45435986, 42.45085141, 11.55229927, 10.79059085]), array([10.62486098, 10.62476779, 17.49954913, 22.04984321, 22.05001869])]
+Total Cost: 43370505345.6
+
+
+19/05/30 19:52:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/30 20:09:05 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/30 20:09:05 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([62.44985008, 63.07378882, 62.44960178, 62.4528769 , 62.44969142]), array([21.23345079, 21.23302354, 25.81627059, 18.55006071, 18.5500267 ]), array([61.82601337, 62.44700117, 62.44870173, 32.55024773, 32.54967613]), array([63.07510908, 62.45043968, 62.45045471, 32.55172861, 32.55059562]), array([62.44977016, 61.82317494, 62.45013285, 62.4461339 , 62.4475074 ])]
+Total Cost: 64756669953.8
+
+
+
+FOUR NODES:
+19/05/31 13:54:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/31 14:08:38 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/31 14:08:38 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([62.45184353, 63.07464538, 62.45017509, 32.55129811, 32.54975457]), array([62.44981017, 62.449231  , 62.449867  , 62.44950944, 62.44860071]), array([10.62486098, 10.62476779, 17.49954913, 22.04984321, 22.05001869]), array([62.44826316, 61.82451498, 62.44898156, 32.55067788, 32.55051538]), array([42.45063043, 42.44953504, 42.44971352, 11.55049569, 11.55004273])]
+Total Cost: 24603181126.6
+
+
+19/05/29 23:42:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/29 23:56:36 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/29 23:56:36 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([ 2.44996039,  3.07423512,  2.44713207, 11.54993343, 11.55033423]), array([ 2.44988879,  1.82536934,  2.45126951, 11.55022594, 11.54937051]), array([30.62521391, 30.62479385, 37.49980496, 22.05005118, 22.05011399]), array([62.44981017, 62.449231  , 62.449867  , 62.44950944, 62.44860071]), array([62.45005088, 62.44871902, 62.4495775 , 32.55098757, 32.5501355 ])]
+Total Cost: 22250457876.2
+
+
+19/05/30 08:04:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/30 08:19:51 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+19/05/30 08:19:51 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+Final centers: [array([62.45005088, 62.44871902, 62.4495775 , 32.55098757, 32.5501355 ]), array([62.4529041 , 62.45133984, 62.4530995 , 63.07512983, 62.45229458]), array([10.62486098, 10.62476779, 17.49954913, 22.04984321, 22.05001869]), array([62.44671907, 62.44712409, 62.44663746, 61.82446257, 62.44491023]), array([42.45063043, 42.44953504, 42.44971352, 11.55049569, 11.55004273])]
+Total Cost: 24603173344.3
+
+
