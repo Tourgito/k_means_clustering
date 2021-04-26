@@ -8,8 +8,8 @@ Finding the K-means in a dataset, which contains coordination for a 5-dimensioan
 
 # Members:
 
-George Michoulis - dai16067 / 
-Nikolaos Stefanidis - dai16054 / 
-Dimitris Tourgaidis - dai16057 / 
-Kwstas Tsiwlis - dai16060 
+George Michoulis / 
+Nikolaos Stefanidis / 
+Dimitris Tourgaidis / 
+Kwstas Tsiwlis
 
