@@ -12,7 +12,4 @@ George Michoulis - dai16067 /
 Nikolaos Stefanidis - dai16054 / 
 Dimitris Tourgaidis - dai16057 / 
 Kwstas Tsiwlis - dai16060 
-<<<<<<< HEAD
 
-=======
->>>>>>> 1986dd1a9e7679fe502c81b3d536e65c45ccdbf8
